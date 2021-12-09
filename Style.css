@@ -1,0 +1,186 @@
+ 
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    
+    padding-bottom: 80px;
+}
+.topnav {
+    background-color: white;
+    padding:20px;
+    padding-left:100px;
+    text-align: left;
+    margin-left: 300px;
+  
+    color:#30425A;
+    max-width: 1700px;
+}
+.nst{
+    background:white;
+    margin-top:-50px;
+    color: #30425A;
+    
+    background-color: white;
+    padding:35px;
+   
+    text-align: left;
+  margin-left: -80px;
+  padding-left:80px;
+    color: #30425A;
+    max-width: 1700px;
+
+    
+
+}
+
+hr{margin-right:300px;}
+
+ul{
+    list-style: none;
+    margin:0px;
+    padding:20px;
+    font-size: 20px;
+    line-height: 35px;
+    
+  
+}
+*{
+    text-decoration: none;
+}
+
+.sidebar{
+    width:300px;
+    background:#DDDDFF;
+    height:100vh;
+    position:fixed;
+
+    
+}
+.subtitle{ padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 70px;
+
+}
+/*
+
+ ul li:hover a{
+     background: #B9B9FF;
+     display:block;
+     padding-left: 5px;
+     width:100%;
+     color:white;
+ }
+ 
+
+  
+ ul li active{
+     color:white;
+    background:#B9B9FF ;
+    display:block;
+    padding-left: 5px;
+    width:100%;
+}
+*/
+.menu ul li a{padding: 12px;
+    text-decoration: none;
+    color: black; 
+    display: block;
+    background:blue;}
+.menu ul li a:hover {
+    background-color: red;
+  }
+
+section{
+    margin-left:25%;
+    padding-top:30px;
+  
+    
+}
+section #home{
+    background: #F5F8FF;
+    height: 100vh;
+    box-sizing:border-box;
+     display: block;
+    padding:0px;
+}
+     
+
+table{ 
+    border-collapse: collapse;
+    width:auto
+    box-shadow: inherit;
+}
+ td{
+     padding:20px 30px;
+ }
+ th{
+     padding:20px;
+     padding-left: 25px;
+ text-align: left;
+    }
+  tr:nth-child(odd){
+      background-color: #F5F5F5;
+  }
+  th{
+      background-color: #E5E5E5;
+  }
+  .detail{
+      background: #F5F8FF;
+      
+  }
+  .para2{
+      margin-left:400px;
+      margin-right:50px;
+  }
+  .para2 h2{
+      font-size: 30px;
+  }
+  .logo{background: white;
+       border-radius:120px;
+        padding :30px;
+        margin:30px;}
+     body{
+            background:#F5F8FF;
+            ;
+        }
+        
+        .newtable{
+            width:90%;
+            background: white;
+           
+          
+        }
+        table{
+            width:95%;
+        }
+        .center{
+            text-align: center;
+        }
+        .pagination {
+            display: inline-block;
+            padding-top: 30px;
+            
+            
+          }
+          .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            border: 1px solid #ddd;
+          }
+          
+         
+          
+          
+          .pagination a:hover:not(.active) {background-color: #ddd;}
+          
+          .pagination a:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+          }
+          
+          .pagination a:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+          }
