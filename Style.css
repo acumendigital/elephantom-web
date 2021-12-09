@@ -84,8 +84,8 @@ ul{
 .menu ul li a{padding: 12px;
     text-decoration: none;
     color: black; 
-    display: block;
-    background:blue;}
+    display: block; }
+                      
 .menu ul li a:hover {
     background-color: red;
   }
