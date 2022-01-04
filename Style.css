@@ -5,16 +5,17 @@ body{
     
     padding-bottom: 80px;
 }
+
 .topnav {
     background-color: white;
     padding:20px;
     padding-left:100px;
     text-align: left;
-    margin-left: 300px;
-  
+    margin-left: 270px;
     color:#30425A;
-    max-width: 1700px;
+    box-shadow: 0px -7px 24px rgba(0, 0, 0, 0.25);
 }
+
 .nst{
     background:white;
     margin-top:-50px;
@@ -24,17 +25,22 @@ body{
     padding:35px;
    
     text-align: left;
-  margin-left: -80px;
-  padding-left:80px;
+  margin-left: -109px;
+  padding-top: 45px;
+  padding-left:90px;
     color: #30425A;
     max-width: 1700px;
+    position: relative;
+    margin-bottom:40px;
+    box-shadow:0px -7px 24px rgba(0, 0, 0, 0.25);
+    
 
     
 
 }
 
 hr{margin-right:300px;}
-
+/*
 ul{
     list-style: none;
     margin:0px;
@@ -49,13 +55,21 @@ ul{
 }
 
 .sidebar{
-    width:300px;
+    
     background:#DDDDFF;
     height:100vh;
     position:fixed;
-
+    width: 300px;
+    height: 100%;
+    padding: 20px 0;
+    margin: 0px;
+    transition: all 0.5s ease;
+    
     
 }
+*/
+/*
+
 .subtitle{ padding-left: 20px;
     padding-top: 20px;
     margin-top: 70px;
@@ -71,6 +85,8 @@ ul{
      color:white;
  }
  
+  
+ 
 
   
  ul li active{
@@ -85,10 +101,10 @@ ul{
     text-decoration: none;
     color: black; 
     display: block; }
-                      
-.menu ul li a:hover {
-    background-color: red;
-  }
+    
+    
+          
+*/
 
 section{
     margin-left:25%;
@@ -96,22 +112,24 @@ section{
   
     
 }
+/*
 section #home{
-    background: #F5F8FF;
+    background
     height: 100vh;
     box-sizing:border-box;
      display: block;
     padding:0px;
 }
-     
+    */ 
 
 table{ 
     border-collapse: collapse;
-    width:auto
-    
+    width:100%;
+   
 }
  td{
      padding:20px 30px;
+     
  }
  th{
      padding:20px;
@@ -131,8 +149,15 @@ table{
   .para2{
       margin-left:400px;
       margin-right:50px;
+     
+      
+  }
+  .para2 p{
+      padding-top: 20px;
   }
   .para2 h2{
+      padding-bottom: 15px;
+      padding-top:15px;
       font-size: 30px;
   }
   .logo{background: white;
@@ -147,6 +172,14 @@ table{
         .newtable{
             width:90%;
             background: white;
+            padding-top:20px;
+            position:relative;
+            top:10;
+            margin: 0;
+          
+            display: block;
+         
+            
            
           
         }
@@ -184,3 +217,56 @@ table{
             border-top-right-radius: 5px;
             border-bottom-right-radius: 5px;
           }
+          .sidebar{
+            background:#DDDDFF;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 275px;
+            height: 100%;
+            padding: 20px 0;
+            transition: all 0.5s ease;
+          }
+          
+
+          
+          *{
+            list-style: none;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .sidebar ul li a{
+            display: block;
+            padding: 13px 30px;
+      
+           
+            font-size: 16px;
+            position: relative;
+        }
+       
+        .sidebar ul li a:hover,
+         .sidebar ul li .active{
+            color:white;
+        
+            background:#B9B9FF;
+          
+        }
+      
+
+        .sidebar ul li a:hover:before,
+ .sidebar ul li a.active:before{
+    display: block;
+}
+.smpara{
+    font-size: 15px;
+}
+.para2 hr{
+    background:#C4CDD59ES;
+    
+}
+.newtable h2{
+    padding-bottom: 15px;
+}
